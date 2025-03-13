@@ -18,4 +18,28 @@
     .subheading{
         @apply text-xl font-semibold
     }
+
+    .padding{
+        @apply xl:px-20 lg:px-16 md:px-10 px-5 py-6
+    }
+    .btn{
+        @apply bg-ownPrimary px-4 py-[6px] text-white font-semibold rounded-md
+    }
+    .outline-btn{
+        @apply border-[2px] border-ownPrimary px-4 py-[6px] text-ownPrimary font-semibold rounded-md
+    }
+    .hero-bg-img{
+        background-position: -5% 70%;
+    }
+
+    .section-heading{
+        @apply md:text-4xl text-3xl md:font-bold font-semibold
+    }
+    .section-description{
+        @apply xl:w-[40%] lg:w-[60%] md:w-[70%] w-full mt-2
+    }
+
+    body{
+        background-color: #EEEEEE;
+    }
 }
